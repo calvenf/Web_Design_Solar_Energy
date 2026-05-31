@@ -9,11 +9,18 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-
     text-align: center;
     padding: 2rem 1rem;
-    background: #718771;
+    background: #02213d;
     color: #eabb0e;
+    width:auto ;
+}
+
+/*Logo*/
+header a img{
+    margin-left: 0;
+    width: 50%;
+    display: block;
 }
 
 /*Navigation*/
@@ -24,18 +31,20 @@ nav{
 }
 .nav{
     text-decoration:none;
-    color:#222;
+    color:#ffffff;
     font-size:18px;
     font-weight:bold;
-
     position:relative;
-
     transition:0.3s;
 }
 .nav:hover{
-    color:#FFD9A3;
-    border-bottom:2px solid #222 ;
+    color:#ffe83b;
+    border-bottom:2px solid #ffe83b ;
     transition:0.3s;
+}
+.nav.accessing{
+    color:#ffe83b;
+    border-bottom:2px solid #ffe83b ;
 }
 
 body{
@@ -43,6 +52,6 @@ body{
     font-size: 20px;
     line-height: 1.6;
     margin: 0;
-    background-color: #EFE1C2;
+    background-color: #ccecff;
     color: #333;
 }

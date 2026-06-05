@@ -46,12 +46,32 @@ nav{
     color:#ffe83b;
     border-bottom:2px solid #ffe83b ;
 }
-
+.contact{
+    background-color:#ffe83b;
+    color: #000000;
+    font-size:20px;
+    font-weight:bold;
+    position:relative;
+    border-radius: 25px;
+    width: 100px;
+    text-decoration:none;   
+}
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     line-height: 1.6;
-
     background-color: #ccecff;
     color: #333;
+}
+
+
+footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #02213d;
+    color: white;
+    width:auto ;
 }

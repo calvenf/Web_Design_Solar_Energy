@@ -55,6 +55,11 @@ nav{
     border-radius: 25px;
     width: 100px;
     text-decoration:none;   
+    transition: 0.3s;
+}
+.contact:hover{
+    background-color:#fbf6d2;
+    transition: 0.3s;
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

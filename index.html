@@ -2,9 +2,146 @@
 <html>
 <head>
     <title>Solar Energy, The Future of Clean Energy</title>
-    <link rel="stylesheet" href="CSS/style2.css">
     <link rel="stylesheet" href="CSS/style.css">
-   
+
+    <style>
+        main {
+            max-width : 1200px; 
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .banner {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            display: block;
+        }
+        h1 { 
+            color: #0B2545;
+            margin-top: 40px; 
+        }
+        h2 { 
+            color: #2D6A4F;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #40916C;
+        }
+        p {
+            text-align: justify; 
+        }
+        .image-container img {
+            width: 400px;
+            height: auto;
+            border-radius: 10px; 
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+        }
+        figure { 
+            margin: 0;
+            text-align: center;
+        }
+        figcaption {
+            margin-top: 10px;
+            font-style: italic; 
+            color: #555; 
+        }
+        .SolarPanels {
+            display:flex;
+            align-items: center; 
+            gap: 35px; 
+
+            background-color: #F9F6EE ;
+            padding: 35px; 
+            margin: 50px 0;
+            border-radius: 12px; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .UNSDG {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            background-color: #F9F6EE ;
+            padding: 35px; 
+            margin: 50px 0;
+            border-radius: 12px; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        ul { 
+            line-height: 1.6;
+        }
+        .cta {
+            text-align: center;
+            background-color: #F9F6EE;
+            padding: 50px; 
+            border-radius: 20px;
+            margin: 40px 0;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px; 
+            padding: 15px 30px;
+
+            background-color: #FFD60A;
+            color:black;
+
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .btn:hover { 
+            transform: scale(1.05);
+        }
+
+        .agency-icons {
+        display: flex; 
+        justify-content: center;
+        gap: 45px;
+        margin: 20px 0; 
+        }
+        .agency-logos img {
+            width: 80px;
+            height: 80px;
+            transition: 0.2s;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #F9F6EE;
+        }
+        .agency-logos img:hover {
+            transform: scale(1.1);
+        }
+        .agency-logos a {
+            text-decoration: none;
+        }
+
+        .target-containers {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .target-cards {
+            background-color: #F9F6EE;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+            flex: 1 1 300px;
+            border-left: 8px solid #F9F6EE;
+        }
+        .target-cards h3 {
+            color: #0B2545;
+            margin-top: 0;
+        }
+        .target-cards p {
+            margin-bottom: 0;
+            transition: transform 0.3s ease;
+        }
+        .target-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
     <!--HEADRER-->
@@ -14,11 +151,11 @@
         <nav>
             <a href="proncon.html" class="nav">Pros & Cons</a>
             <a href="how.html" class="nav">How it works ?</a>
-            <a href="Application.html" class="nav accessing">Application</a> 
+            <a href="Application.html" class="nav">Application</a> 
             <a href="contact.html" class="contact">Contact</a>
         </nav>
     </header>
-    <img src="solar2.png" alt="Solar Energy" class="banner"> 
+    <img src="Image/Home Page/banner.png"  class="banner"> 
 <main> 
    
     <h1>What is Solar Energy?</h1>
@@ -100,13 +237,13 @@
 
     <div class="agency-logos">
         <a href="https://sdgs.un.org/goals/goal7" target="_blank">
-            <img src="SDG.jpg" alt="UN SDG Goal 7">
+            <img src="Image/Home Page/SDG.jpg" alt="UN SDG Goal 7">
         </a>
         <a href="https://www.irena.org" target="_blank">
-            <img src="IRENA.png" alt="IRENA">
+            <img src="Image/Home Page/IRENA.png" alt="IRENA">
         </a>
         <a href="https://www.iea.org/topics/renewables" target="_blank">
-            <img src="IEA.png" alt="IEA">
+            <img src="Image/Home Page/IEA.png" alt="IEA">
         </a>
     </div>
 </div>

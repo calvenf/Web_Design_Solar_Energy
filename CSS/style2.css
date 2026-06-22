@@ -16,27 +16,6 @@ body {
     object-fit: cover;
     display: block;
 }
-nav {
-    background-color: #0B2545;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding: 20px; 
-    box-sizing: border-box;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2); 
-}
-nav a { 
-    color: white; 
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-    transition: 0.3s;
-}
-nav a:hover {
-    color: #FFD60A;
-}
 h1 { 
     color: #0B2545;
     margin-top: 40px; 
@@ -114,22 +93,7 @@ ul {
 .btn:hover { 
     transform: scale(1.05);
 }
-footer {
-    margin-top: 70px;
-    display:flex; 
-    justify-content: center;
-}
-.footer-container {
-    background-color: #F9F6EE; 
-    color: black; 
 
-    width: 95%; 
-    max-width: 1200px;
-    padding: 50px 25px 0;
-    border-radius: 12px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-    text-align: center;
-}
 .agency-icons {
    display: flex; 
    justify-content: center;

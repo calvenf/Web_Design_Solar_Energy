@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
 }
 
 /*Header*/
@@ -13,12 +12,11 @@ header{
     padding: 2rem 1rem;
     background: #02213d;
     color: #eabb0e;
-    width:auto ;
+    width: auto;
 }
 
 /*Logo*/
 header a img{
-    margin-left: 0;
     width: 50%;
     display: block;
 }
@@ -34,7 +32,6 @@ nav{
     color:#ffffff;
     font-size:18px;
     font-weight:bold;
-    position:relative;
     transition:0.3s;
 }
 .nav:hover{
